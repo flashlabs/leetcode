@@ -4,6 +4,7 @@ import (
 	"flag"
 	"fmt"
 
+	"github.com/flashlabs/leetcode/addtwonumbers"
 	"github.com/flashlabs/leetcode/twosum"
 )
 
@@ -13,6 +14,8 @@ func main() {
 	switch fn {
 	case "two-sum":
 		twosum.Run()
+	case "add-two-numbers":
+		addtwonumbers.Run()
 	default:
 		fmt.Println("Please provide function name. Possible options: runUpdateStock, runCreateProductSet, runClearAndDeleteProductSet, runIndexProductsProcess, runGetSimilarProductsProcess, runPreprocessData, runReportGenerator")
 	}
