@@ -17,7 +17,7 @@ func main() {
 	case "add-two-numbers":
 		addtwonumbers.Run()
 	default:
-		fmt.Println("Please provide function name. Possible options: runUpdateStock, runCreateProductSet, runClearAndDeleteProductSet, runIndexProductsProcess, runGetSimilarProductsProcess, runPreprocessData, runReportGenerator")
+		fmt.Println("Please provide function name. Possible options: two-sum, add-two-numbers")
 	}
 }
 
